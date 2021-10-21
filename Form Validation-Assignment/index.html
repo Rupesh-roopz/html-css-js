@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="formHeader">
+            <h2>COWIN REGISTRATION FORM</h2>
+        </div>
+        <div class="formBody">
+            <form action="#">
+                <div class="marker">
+                    <div class="nameTag">
+                        <h4>Name</h4>
+                    </div>
+                    <div class="firstNameTag">
+                        <input type="text" pattern="/[A-Za-z]{8,50}/" id="firstName" required>
+                        <h6>First Name</h6>
+                    </div>
+                    <div class="lastNameTag" >
+                        <input type="text" id=lastName required>
+                        <h6>Last Name</h6>
+                    </div>
+                </div>
+                <div class="marker">
+                    <div class="aadharTag">
+                        <h4>Aadhar Number</h4>
+                    </div>
+                    <div class="aadharInputTag">
+                        <input type="text" id="aadharInputTag" required>
+                    </div>
+                </div>
+                <div class="marker">
+                    <div class="emailTag">
+                        <h4>Email</h4>
+                    </div>
+                    <div class="companyInputTag">
+                        <input type="email" id="emailID" required> 
+                    </div>
+                </div>
+                <div class="marker">
+                    <div class="phoneTag">
+                        <h4>Phone</h4>
+                    </div>
+                    <div class="areaCodeTag">
+                        <input type="text" id="areaCode" required>
+                    </div>
+                    <div class="phoneNumberTag">
+                        <input type="text" id="phoneID" required>
+                    </div>
+                </div>
+                <div class="marker">
+                    <div class="subjectTag">
+                        <h4>Dose</h4>
+                    </div>
+                    <div class="subjectInputTag">
+                    <select required> 
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="1">Dose 1</option>
+                        <option value="1">Dose 2</option>
+                    </select>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+<template id="myTemp">
+    <p>Enter valid Name</p>
+</template>
+</body>
+<script src="./index.js"></script>
+</html>

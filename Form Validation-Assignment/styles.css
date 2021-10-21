@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    background-color:white;
+    border:2px solid blueviolet  
+}
+.formHeader{
+    text-align: center;
+    background-color: #9d3cf8;
+    color: cornsilk;
+}
+.marker{
+    display: flex;
+}
+.nameTag,.aadharTag,.emailTag,.phoneTag,.subjectTag{
+    width: 150px;
+    text-align: center;
+    
+}
+.firstNameTag,.lastNameTag{
+    margin-right: 15px;
+    
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.wrapper{
+    height: auto;
+    width:500px;
+}
+h6{
+    margin: 0px;;
+}
+h2{
+    margin:0;
+    padding-top: 20px;
+    height: 60px;
+}
+input,select{
+    height: 30px;
+    margin-top: 13px;
+}
+#areaCode{
+    width: 50px;
+    margin-right: 10px;
+    
+}
